@@ -12,6 +12,9 @@ class Pessoa {
         var pais: String = "Brasil"
     }
 
+    constructor()
+
+    fun pessoaInfo() = "$nome e $cpf"
 }
 
 fun main() {
@@ -24,4 +27,7 @@ fun main() {
     println(pessoa.idade)
 
     println(pessoa.Endereco().pais)
+
+    println(pessoa.pessoaInfo())
+
 }
